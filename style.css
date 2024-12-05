@@ -1,0 +1,11 @@
+.cont-relogio div{
+   font-weight: 900;
+   color:rgb(255, 255, 255);
+   text-shadow: 3px 3px 10px rgb(17, 17, 17);
+}
+
+.container-fluid{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
