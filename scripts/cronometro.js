@@ -38,21 +38,12 @@ function startTime() {
         }
         minutos.textContent = formatar(min)
         segundos.textContent = formatar(seg)
-        milisegundos.textContent = formatMillisegunds(mil)
+        milisegundos.textContent = forma
 
     }, 10)
 
 
 };
-function formatMillisegunds(time) {
-    return time < 100 ? `${time}`.padStart(3, "0") : time;
-}
-function formatar(numero){
-    if(numero<10){
-        numero = "0"+ numero
-    }
-    return numero;
-}
 
 function pausar() {
     pause = true;

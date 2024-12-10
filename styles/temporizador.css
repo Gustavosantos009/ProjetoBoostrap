@@ -1,0 +1,10 @@
+.dis-none{
+    display: none;
+}
+#alarme{
+    display: none;
+}
+#principal{
+    display: flex;
+    flex-direction: column;
+}

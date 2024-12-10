@@ -13,13 +13,13 @@
 </head>
 
 <body>
-    <div class="container-fluid d-flex flex-column justify-content-center align-items-center bg-info-subtle "
+    <div class="container-fluid d-flex flex-column justify-content-center align-items-center bg-light"
         style="height: 100vh;">
         <div
-            class="row justify-content-around w-50 h-25 rounded-5 border border-3 border-light align-content-center fs-1">
+            class="row justify-content-around w-50 h-25 rounded-5 border border-3 border-black align-content-center fs-1">
             <div id="min" class="col-3 text-center">00</div>
             <div id="seg" class="col-3 text-center">00</div>
-            <div id="mil" class="col-3 text-center">0000</div>
+            <div id="mil" class="col-3 text-center fs-4">0000</div>
         </div>
         <div class="row w-25 justify-content-between mt-5">
             <button id="btnContinuar" type="button " class="btn dis-none btn-info w-auto col-3">continuar</button>
@@ -28,11 +28,18 @@
             <button id="btnReset" type="button" class="btn btn-warning col-3">reset</button>
         </div>
         <div class=" nav m-5  w-100 justify-content-center fixed-bottom ">
-            <div class="row w-25 justify-content-around">
-                <button class="  ms-2 btn w-auto btn-dark col-2" ><a href="index.html"
-                    class="text-light link-underline link-underline-opacity-0">Relogio</a></button>
+
+            <div class="row row w-sm-100  justify-content-around">
+
+                <button class="  ms-2 btn w-auto btn-dark col-2">
+                    <a href="index.html" class="text-light link-underline link-underline-opacity-0">Relogio</a>
+                </button>
+
                 <button class=" btn w-auto btn-dark col-2 " disabled>Cronometro</button>
 
+                <button class=" btn w-auto btn-dark col-2 ">
+                    <a href="temporizador.html"class="text-light link-underline link-underline-opacity-0">Temporizador</a>
+                </button>
             </div>
 
         </div>
